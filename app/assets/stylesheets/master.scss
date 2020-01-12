@@ -1,1 +1,13 @@
 @import "bootstrap";
+
+.navbar{
+  font-family: 'slabo_13pxregular', serif;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #37bd7e;
+  background: image_url('folk-pattern-black.png') 
+}
+.navbar-inverse .navbar-brand {
+  color: #37bd7e;
+  font-family: 'slabo_13pxregular', serif;
+  font-weight: 100;
+}
