@@ -33,9 +33,13 @@
         <ul class="lessons">
           <% section.lessons.rank(:row_order).each do |lesson| %>
             <li data-item-id=<%= lesson.id %>>
-              <b><%= lesson.title %></b>
-              -
+              <span class="fa fa-ellipsis-v"></span>
+              <p>
+                <b><%= lesson.title %></b>
+              </p>
+              <p>
               <%= lesson.subtitle %>
+            </p>
             </li>
           <% end %>
         </ul>
